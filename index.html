@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="src/style.css">
+  <title>E Com web</title>
+</head>
+<body>
+
+  <!-- 1st nav bar  -->
+  
+  <nav id="first-nav-outer" class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+            <div id="nav-para">
+            <P>Free shipping, 30-day return or refund guarantee.</P>
+          </div>
+        <form class="d-flex" id="nav-btn" role="search">
+          <a href="signin.html" ><button style="color: pink;" class="btn">SIGN IN</button></a>
+          <a href="signup.html"><button style="color: pink;" class="btn">SIGN UP</button></a>
+        </form>
+    </div>
+  </nav>
+  
+  <!-- 1st navbar end  -->
+
+  <!-- 2nd navbar start  -->
+  <nav id="second-nav-outer" class="navbar navbar-expand bg-body-tertiary">
+    <div class="container-fluid">
+      <a href="index.html"><img id="logo" src="logo2-removebg-preview.png" alt="logo"></a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div id="nav-Links-outer" class="mt-4">
+        <!-- bar-animation-open bar-animation-close -->
+        <ul class=" ms-auto mb-2 mb-lg-0">         
+          <!-- navbar-nav -->
+          <li class="nav-item p-2">
+            <a  class="nav-link" href="#first-nav-outer">HOME</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>        
+          <li class="nav-item p-2">
+            <a class="nav-link" href="#shop">PRODUCT</a>
+          </li>  
+          <li class="nav-item p-2">
+            <a class="nav-link" href="cart.html#shoping-start">SHOP</a>
+          </li>          
+          <li class="nav-item p-2">
+            <a class="nav-link" href="#footer-ctrl">CONTACT</a>
+          </li>
+          <!-- <i class="fa-solid fa-xmark"></i> -->
+        </ul>
+        <i class="fa-solid fa-xmark"></i>
+      </div>     
+      <i class="fa-solid fa-bars"></i> 
+        <a href="cart.html"><button id="cart">  <i style="font-size:24px" class="fa">&#xf07a;</i> <p class="cart-counter">0</p></button></a>
+    </div>
+  </nav> 
+  
+
+
+
+  <!-- 2nd navbar end  -->
+
+
+  <!-- banner start  -->
+<header>
+  <div id="banner" class="grid text-center">
+    <div class="g-lg-5 col-sm-12">
+      <img id="banner-img" src="1.jpg" alt="img">
+    </div>
+    <div class="g-lg-5 col-sm-12">
+      <div id="banner-head">
+      <p>Explore the Latest in Tech Industries</p>
+      <h1>Your Destination for Cutting-Edge Gadgets!</h1>
+    </div>
+    <p>Welcome to SAJ E-ComStore, your ultimate destination for cutting-edge gadgets!</p>
+    <p>Explore the latest in tech innovation and style with us.</p>
+    <p> Shop now and discover a world of possibilities</p>
+    </div>
+  </div>
+
+  <div class="custom-shape-divider-top-1735653991">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" style="transform: scaleY(-1);">
+        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill" fill="skyblue"></path>
+        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill" fill="skyblue"></path>
+        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill" fill="skyblue"></path>
+    </svg>
+</div>
+
+
+
+
+
+  <!-- banner end  -->
+
+
+
+  <!-- card start  -->
+  <div class="row container-fluid" id="card-outer">
+    <div class="col-sm-4 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="row no-gutters">
+            <div class="col-sm-6 card-body">
+                <a class="card-newyear-sale" href="#">NEW YEAR SALE</a>
+                <h5 class="card-text">Get an Extra 50% off</h5>
+                <a href="#" class="btn btn-outline-primary">SHOW NOW</a>
+            </div>
+            <div class="col-sm-6 card-body">
+                <img id="laptop-img" src="laptop.png" alt="laptop" class="img-fluid">
+            </div>
+        </div>
+    </div>
+ </div>
+
+    <div class="col-sm-4 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="row no-gutters">
+            <div class="col-sm-6 card-body">
+                <a class="card-newyear-sale" href="#">NEW YEAR SALE</a>
+                <h5 class="card-text">Get an Extra 50% off</h5>
+                <a href="#" class="btn btn-outline-primary">SHOW NOW</a>
+            </div>
+            <div class="col-sm-6 card-body">
+                <img id="headphone-img" src="headphone.png" alt="headphone" class="img-fluid">
+            </div>
+        </div>
+    </div>
+  </div> 
+   
+
+   
+    <div class="col-sm-4 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="row no-gutters">
+            <div class="col-sm-6 card-body">
+                <a class="card-newyear-sale" href="#">NEW YEAR SALE</a>
+                <h5 class="card-text">Get an Extra 50% off</h5>
+                <a href="#" class="btn btn-outline-primary">SHOW NOW</a>
+            </div>
+            <div class="col-sm-6 card-body">
+                <img id="mobile-img" src="mobile.png" alt="mobile" class="img-fluid">
+            </div>
+        </div>
+    </div>
+  </div>
+  </div>
+
+        
+
+  <!-- card end  -->
+
+</header>
+
+
+<main>
+  <!-- guarantee card startcard-inner -->
+   <div class="container-fluid">
+    <div id="guarantee" class="row">
+    <div class="col-sm-6 col-md-3 col-lg-3 mb-1 mb-sm-0">
+      <div class="row">
+        <div class="d-flex align-items-center">
+          <!-- <i class="fa-solid fa-truck-fast" style="font-size: 3rem; margin-right: 10px;"></i> -->
+          <i style='font-size:24px; margin-right: 10px;' class='fas'>&#xf48b;</i>
+        <div>
+            <h5 class="card-text">Worldwide Shipping</h5>
+            <p style="display: inline;"> - Order above $100</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+   <div class="col-sm-6 col-md-3 col-lg-3 mb-1 mb-sm-0">
+      <div class="row">
+        <div class="d-flex align-items-center">
+          <!-- <i class="fa-solid fa-arrow-right-arrow-left" style="font-size: 3rem; margin-right: 10px;"></i> -->
+          <span style='font-size:30px; margin-right: 10px;'>&#8646;</span>
+        <div>
+            <h5 class="card-text">Easy 30 Day Returns</h5>
+            <p style="display: inline;">- Back Returns in 7 Days</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3 mb-1 mb-sm-0">
+      <div class="row">
+        <div class="d-flex align-items-center">
+          <!-- <i class="fa-solid fa-hand-holding-dollar" style="font-size: 3rem; margin-right: 10px;"></i> -->
+          <i style='font-size:24px;margin-right: 10px;' class='far'>&#xf3d1;</i>
+        <div>
+            <h5 class="card-text">Money Back guarantee</h5>
+            <p style="display: inline;"> - Guarantee with in 30-Days</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3 mb-1 mb-sm-0">
+      <div class="row">
+        <div class="d-flex align-items-center">
+          <!-- <i class="fa-solid fa-headset" style="font-size: 3rem; margin-right: 10px;"></i> -->
+          <i style='font-size:24px;margin-right: 10px;' class='fas'>&#xf590;</i>
+        <div>
+            <h5 class="card-text">Easy Online Support</h5>
+            <p style="display: inline;"> - 24/7 Any time support</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   </div>
+  </div>
+  
+  
+
+  <!-- guarantee card end  -->
+
+  <hr>
+
+  <!-- why you choose card start  -->
+
+  <div class="container-fluid mt-5 mb-5">
+    <div class="d-flex justify-content-center">
+      <h2>Why Choose SAJ Store</h2>
+    </div>
+    <div class="d-flex justify-content-center">
+      <p>Choose SAJ EduHub for a holistic, enriching learning experience that empowers you to achieve your goals.</p>
+    </div>
+  </div>
+
+  <div class="alert alert-light container-fluid msg" role="alert">
+   Your Product ID is<p class="cartMsg-no"></p> Go to <a class="ms-1 me-1" href="cart.html">Cart</a> & confirm it.
+  </div>
+
+  <!-- why you choose card end  -->
+
+   <!-- shop card 1 start  -->
+  
+<div id="shop" class="row container-fluid d-flex justify-content-between">
+  <!-- 1st card  -->
+
+  <div class="col-sm-12 col-md-4 col-lg-4 mb-2">
+    <div class="card">
+      <img src="shoplaptop.png" class="card-img-top img-fluid" alt="laptop">
+      <div class="card-body">
+        <h3 class="card-title">Laptop</h3>
+      </div>
+      <div class="d-flex ms-3" style="color: yellow;">
+      <i class="fa-sharp fa-solid fa-star"></i>
+      <i class="fa-sharp fa-solid fa-star"></i>
+      <i class="fa-sharp fa-solid fa-star"></i>
+      <i class="fa-sharp fa-solid fa-star"></i>
+      <i class="fa-sharp fa-solid fa-star"></i>
+    </div>
+    <div class="ms-2 mt-2">
+    <p>Powerful laptop with a quad-core i7 6th Gen processor, 4GB RAM, 128GB SSD, and a 14-inch FHD display.</p>
+    </div>
+    
+    <div class="ms-2">
+    <h5>Rs.49,999<del> Rs.69,999</del></h5>
+    </div>
+    
+    <p>Total Stocks Available:  4</p>
+    
+      <div class="row">
+        <div class="col-sm-5 col-md-5 col-lg-5">
+        <p>Quantity(Pieces):</p>
+      </div>
+        <div class="btn-group col-sm-7 col-md-7 col-lg-7" role="group" aria-label="Basic mixed styles example">
+          <button type="button" class="btn btn-danger" id="shop-laptop-minus-btn">-</button>
+          <button type="button" class="btn btn-warning" id="shop-laptop-count-btn">1</button>
+          <button type="button" class="btn btn-success" id="shop-laptop-plus-btn">+</button>
+        </div>
+        </div>
+        
+        <button id="laptop-btn" type="button" class="btn btn-dark mt-2"><i class="fa-solid fa-truck-fast" style="margin-right: 10px;"></i>Add To Cart</button>
+    
+      </div>
+    </div>
+<!-- 2nd card  -->
+
+<div class="col-sm-12 col-md-4 col-lg-4 mb-2">
+  <div class="card">
+    <img src="shopmobile.png" class="card-img-top img-fluid" alt="mobile">
+    <div class="card-body">
+      <h3 class="card-title">Samsung Galaxy A24</h3>
+    </div>
+    <div class="d-flex ms-3" style="color: yellow;">
+    <i class="fa-sharp fa-solid fa-star"></i>
+    <i class="fa-sharp fa-solid fa-star"></i>
+    <i class="fa-sharp fa-solid fa-star"></i>
+    <i class="fa-sharp fa-solid fa-star"></i>
+    <i class="fa-sharp fa-solid fa-star"></i>
+  </div>
+  <div class="ms-2 mt-2">
+  <p>Feature-rich smartphone with a 6.5-inch Super AMOLED screen, 50MP + 12MP + 5MP camera, 128GB storage, and a 5000mAh battery.</p>
+  </div>
+  
+  <div class="ms-2">
+  <h5>Rs.56,999  <del>Rs.72,999</del></h5>
+  </div>
+  
+  <p>Total Stocks Available:  9</p>
+  
+    <div class="row">
+      <div class="col-sm-5 col-md-5 col-lg-5">
+      <p>Quantity(Pieces):</p>
+    </div>
+      <div class="btn-group col-sm-7 col-md-7 col-lg-7" role="group" aria-label="Basic mixed styles example">
+        <button type="button" class="btn btn-danger" id="shop-mobile-minus-btn">-</button>
+        <button type="button" class="btn btn-warning" id="shop-mobile-count-btn">1</button>
+        <button type="button" class="btn btn-success" id="shop-mobile-plus-btn">+</button>
+      </div>
+      </div>
+      
+      <button id="mobile-btn" type="button" class="btn btn-dark mt-2"><i class="fa-solid fa-truck-fast" style="margin-right: 10px;"></i>Add To Cart</button>
+  
+    </div>
+  </div>
+
+<!-- 3rd card  -->
+
+<div class="col-sm-12 col-md-4 col-lg-4 mb-2">
+<div class="card">
+  <img src="shopheadphone.png" class="card-img-top img-fluid" alt="headphone">
+  <div class="card-body">
+    <h3 class="card-title">Wireless Headphones</h3>
+  </div>
+  <div class="d-flex ms-3" style="color: yellow;">
+  <i class="fa-sharp fa-solid fa-star"></i>
+  <i class="fa-sharp fa-solid fa-star"></i>
+  <i class="fa-sharp fa-solid fa-star"></i>
+  <i class="fa-sharp fa-solid fa-star"></i>
+  <i class="fa-sharp fa-solid fa-star"></i>
+</div>
+<div class="ms-2 mt-2">
+<p>High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color.</p>
+</div>
+
+<div class="ms-2">
+<h5>Rs.999  <del> Rs.1499</del></h5>
+</div>
+
+<p>Total Stocks Available:  30</p>
+
+  <div class="row">
+    <div class="col-sm-5 col-md-5 col-lg-5">
+    <p>Quantity(Pieces):</p>
+  </div>
+    <div class="btn-group col-sm-7 col-md-7 col-lg-7" role="group" aria-label="Basic mixed styles example">
+      <button type="button" class="btn btn-danger" id="shop-Headphone-minus-btn">-</button>
+      <button type="button" class="btn btn-warning" id="shop-Headphone-count-btn">1</button>
+      <button type="button" class="btn btn-success" id="shop-Headphone-plus-btn">+</button>
+    </div>
+    </div>
+    
+    <button id="headphone-btn" type="button" class="btn btn-dark mt-2"><i class="fa-solid fa-truck-fast" style="margin-right: 10px;"></i>Add To Cart</button>
+
+  </div>
+</div>
+
+
+
+</div>
+</div>  
+
+  
+
+   <!-- shop card 1 end  -->
+
+
+
+   <!-- shop card 2 start  -->
+
+   
+<div class="row container-fluid d-flex justify-content-between">
+  <!-- 1st card  -->
+
+  <div class="col-sm-12 col-md-4 col-lg-4 mb-2">
+    <div class="card">
+      <img src="shopwatch.png" class="card-img-top img-fluid" alt="Watch">
+      <div class="card-body">
+        <h3 class="card-title">Watches</h3>
+      </div>
+      <div class="d-flex ms-3" style="color: yellow;">
+      <i class="fa-sharp fa-solid fa-star"></i>
+      <i class="fa-sharp fa-solid fa-star"></i>
+      <i class="fa-sharp fa-solid fa-star"></i>
+      <i class="fa-sharp fa-solid fa-star"></i>
+      <i class="fa-sharp fa-solid fa-star"></i>
+    </div>
+    <div class="ms-2 mt-2">
+    <p>Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color.</p>
+    </div>
+    
+    <div class="ms-2">
+    <h5>Rs.2,999<del> Rs.3,999</del></h5>
+    </div>
+    
+    <p>Total Stocks Available:  12</p>
+    
+      <div class="row">
+        <div class="col-sm-5 col-md-5 col-lg-5">
+        <p>Quantity(Pieces):</p>
+      </div>
+        <div class="btn-group col-sm-7 col-md-7 col-lg-7" role="group" aria-label="Basic mixed styles example">
+          <button type="button" class="btn btn-danger" id="shop-Watch-minus-btn">-</button>
+          <button type="button" class="btn btn-warning" id="shop-Watch-Count-btn">1</button>
+          <button type="button" class="btn btn-success" id="shop-Watch-plus-btn">+</button>
+        </div>
+        </div>
+        
+        <button id="watch-btn" type="button" class="btn btn-dark mt-2"><i class="fa-solid fa-truck-fast" style="margin-right: 10px;"></i>Add To Cart</button>
+    
+      </div>
+    </div>
+<!-- 2nd card  -->
+
+<div class="col-sm-12 col-md-4 col-lg-4 mb-2">
+  <div class="card">
+    <img src="shopspeaker.png" class="card-img-top img-fluid" alt="Speaker">
+    <div class="card-body">
+      <h3 class="card-title">Speakers</h3>
+    </div>
+    <div class="d-flex ms-3" style="color: yellow;">
+    <i class="fa-sharp fa-solid fa-star"></i>
+    <i class="fa-sharp fa-solid fa-star"></i>
+    <i class="fa-sharp fa-solid fa-star"></i>
+    <i class="fa-sharp fa-solid fa-star"></i>
+    <i class="fa-sharp fa-solid fa-star"></i>
+  </div>
+  <div class="ms-2 mt-2">
+  <p>High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color.</p>
+  .
+  </div>
+  
+  <div class="ms-2">
+  <h5>Rs.4,499  <del>Rs.5,999</del></h5>
+  </div>
+  
+  <p>Total Stocks Available:  7</p>
+  
+    <div class="row">
+      <div class="col-sm-5 col-md-5 col-lg-5">
+      <p>Quantity(Pieces):</p>
+    </div>
+      <div class="btn-group col-sm-7 col-md-7 col-lg-7" role="group" aria-label="Basic mixed styles example">
+        <button type="button" class="btn btn-danger" id="shop-Speaker-minus-btn">-</button>
+        <button type="button" class="btn btn-warning" id="shop-Speaker-Count-btn">1</button>
+        <button type="button" class="btn btn-success" id="shop-Speaker-plus-btn">+</button>
+      </div>
+      </div>
+      
+      <button id="speaker-btn" type="button" class="btn btn-dark mt-2"><i class="fa-solid fa-truck-fast" style="margin-right: 10px;"></i>Add To Cart</button>
+  
+    </div>
+  </div>
+
+<!-- 3rd card  -->
+
+<div class="col-sm-12 col-md-4 col-lg-4 mb-2">
+<div class="card">
+  <img src="shopTV.png" class="card-img-top img-fluid" alt="Television">
+  <div class="card-body">
+    <h3 class="card-title">Television</h3>
+  </div>
+  <div class="d-flex ms-3" style="color: yellow;">
+  <i class="fa-sharp fa-solid fa-star"></i>
+  <i class="fa-sharp fa-solid fa-star"></i>
+  <i class="fa-sharp fa-solid fa-star"></i>
+  <i class="fa-sharp fa-solid fa-star"></i>
+  <i class="fa-sharp fa-solid fa-star"></i>
+</div>
+<div class="ms-2 mt-2">
+<p>Brand New SAMSUNG LCD , 32-inch , Full HD , Unique style , Less weight and thin</p>
+.
+</div>
+
+<div class="ms-2">
+<h5>Rs.24,999  <del> Rs.34,999</del></h5>
+</div>
+
+<p>Total Stocks Available:  2</p>
+
+  <div class="row">
+    <div class="col-sm-5 col-md-5 col-lg-5">
+    <p>Quantity(Pieces):</p>
+  </div>
+    <div class="btn-group col-sm-7 col-md-7 col-lg-7" role="group" aria-label="Basic mixed styles example">
+      <button type="button" class="btn btn-danger" id="shop-Television-minus-btn">-</button>
+      <button type="button" class="btn btn-warning" id="shop-Television-Count-btn">1</button>
+      <button type="button" class="btn btn-success" id="shop-Television-plus-btn">+</button>
+    </div>
+    </div>
+    
+    <button id="television-btn" type="button" class="btn btn-dark mt-2"><i class="fa-solid fa-truck-fast" style="margin-right: 10px;"></i>Add To Cart</button>
+
+  </div>
+</div>
+
+
+
+</div>
+</div>  
+
+
+
+
+   <!-- shop card 2 end  -->
+
+
+
+   <!-- specification start  -->
+
+  <div id="about" class="row container-fluid mt-5 d-flex flex-row justify-content-center mb-lg-5">
+
+
+    <div class="col-sm-3 col-md-3 col-lg-3" id="left-paras">
+
+    <div class="mb-3 d-inline">
+      <button type="button" class="btn btn-outline-info mb-3" style="border-radius: 50%;">1</button>
+      <h4>Wide Selection</h4>
+      <p>SAJ Store offers a diverse range of gadgets, from smartphones to smart home devices, ensuring you find what you need to elevate your lifestyle and meet your tech requirements.</p>
+    </div>
+  
+    
+
+    <div class="mb-3 d-inline">
+      <button type="button" class="btn btn-outline-info mb-3" style="border-radius: 50%;">2</button>
+      <h4>Quality Assurance</h4>
+      <p>Every gadget at SAJ Store undergoes rigorous quality checks, guaranteeing reliability and performance, so you can shop with confidence knowing you're getting the best.</p>
+    </div>
+
+   
+
+    <div class="mb-3 d-inline">
+      <button type="button" class="btn btn-outline-info mb-3" style="border-radius: 50%;">3</button>
+      <h4>Competitive Prices</h4>
+      <p>Enjoy great value with SAJ Store's competitive prices on high-quality gadgets, making top-of-the-line technology accessible to all without compromising on quality or performance.</p>
+    </div>
+
+    </div>
+
+
+    
+
+    <div class="col-sm-5 col-md-5 col-lg-5" id="specs-img">
+      <img src="e-commerce-3406613_640.webp" class="card-img-top img-fluid" style="border-radius: 50%;" id="image-inner" alt="img">
+    </div>
+
+
+    
+
+    <div class="col-sm-3 col-md-3 col-lg-3" id="right-paras">
+
+      <div class="mb-3 d-inline">
+        <button type="button" class="btn btn-outline-info mb-3" style="border-radius: 50%;">4</button>
+        <h4>Expert Guidance</h4>
+        <p>Our knowledgeable staff provides expert guidance, helping you choose the right gadget to meet your needs and preferences, ensuring you make informed decisions every step of the way.</p>
+      </div>
+    
+      
+  
+      <div class="mb-3 d-inline">
+        <button type="button" class="btn btn-outline-info mb-3" style="border-radius: 50%;">5</button>
+        <h4>Convenient Shopping</h4>
+        <p>With SAJ Store, shopping for gadgets is easy and convenient. Our user-friendly website and secure payment options ensure a seamless experience from browsing to checkout, all from the comfort of your home.</p>
+      </div>
+  
+     
+  
+      <div class="mb-3 d-inline">
+        <button type="button" class="btn btn-outline-info mb-3" style="border-radius: 50%;">6</button>
+        <h4>Excellent Service</h4>
+        <p>SAJ Store is committed to providing excellent service to our customers. From prompt assistance with inquiries to efficient handling of orders and deliveries, we prioritize your satisfaction every step of the way.</p>
+      </div>
+  
+      </div>
+  
+
+
+
+
+</div> 
+
+  
+
+
+   <!-- specification end  -->
+
+  </main>
+
+  <!-- footer start  -->
+
+  <footer class="container-fluid" id="footer-ctrl">
+    <div class="row container-fluid">
+
+      <div class="col-sm-12 col-md-12 col-lg-6">
+        <img src="logo2-removebg-preview.png" class="img-fluid" alt="logo">
+        <p>Welcome to SAJ E-ComStore, your ultimate destination for cutting-edge gadgets!</p>
+        <img src="footerimg.png" class="img-fluid" alt="cards">
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-2 mt-3">
+        <p style="font-size: larger; font-weight: 600;">SHOPPING</p>
+        <a class="d-block" style="text-decoration: none; color:aquamarine" href="#">Computer Store</a>
+        <a class="d-block" style="text-decoration: none; color:aquamarine" href="#">Laptop Store</a>
+        <a class="d-block" style="text-decoration: none; color:aquamarine" href="#">Accessories</a>
+        <a class="d-block" style="text-decoration: none; color:aquamarine" href="#">Sales and Discount</a>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-2 mt-3">
+        <p style="font-size: larger; font-weight: 600;">EXPERIENCE</p>
+        <a class="d-block" style="text-decoration: none; color:aquamarine" href="#">Contact us</a>
+        <a class="d-block" style="text-decoration: none; color:aquamarine" href="#">Payment Method</a>
+        <a class="d-block" style="text-decoration: none; color:aquamarine" href="#">Delivery</a>
+        <a class="d-block" style="text-decoration: none; color:aquamarine" href="#">Return and Exchange</a>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-2 mt-3">
+        <p style="font-size: larger; font-weight: 600;">NEWSLETTER</p>
+        <P>Be the first to know about new
+          arrivals, sales & promos!</P>
+          <div class="input-group flex-nowrap">
+           
+            <input type="text" class="form-control" placeholder="E-Mail" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+       
+      </div>
+
+
+    </div>
+
+    <hr>
+    <!-- <p class="footer-para">Design by thapa and Code by Shahzaib Asif</p> -->
+    <a class="footer-para" href="tel:+923270475152">+92|327-0475152(phone)</a>
+    <a class="footer-para" href="mailto:shahzaibasifjatala@gmail.com">shahzaibasifjatala@gmail.com(gmail)</a>
+
+  </footer>
+
+
+
+
+  <!-- footer end  -->
+
+
+   <script src="src/main.js"></script>
+   <script src="cartscript.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav{
+    background-color: rgb(43, 42, 42);
+  }
+  
+  #first-nav-outer{
+    width: 100%;
+  }
+  
+  #nav-para{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+  }
+  
+  @media screen and (max-width: 540px) {
+    #nav-btn{
+      position: relative;
+      left: 20%;    
+    }
+  
+  }
+  
+  /* 2nd nav  */
+  
+  #logo{
+    height: 60px;
+    width: 150px;
+  }
+  
+  #cart{
+    color: aliceblue;
+    height: 10vh;
+    width: 8vw;
+    background-color: rgb(43, 42, 42);
+    border-radius: 5px;
+  }
+  
+  .nav-item{
+    display: inline;
+  }
+  
+  .nav-link {
+    position: relative; 
+    display: inline-block; 
+    padding-bottom: 5px; 
+    color: black;
+    text-decoration: none;
+  }
+  
+  .nav-link::before {
+    content: ""; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; 
+    height: 2px;
+    background-color: blue;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover::before {
+    width: 100%; 
+  }
+  
+  .nav-link:hover {
+    color: blue; 
+  }
+  
+  .fa-solid{
+    display: none;
+  }
+  
+  .cart-counter{
+    height: 1px;
+  }
+  
+  @media screen and (max-width: 576px) {
+    #nav-Links-outer{
+      height: 100vh;
+      width: 0%;
+      background-color: pink;
+      z-index: 2;
+      position: fixed;
+      top: 0;
+      right: 0;
+      padding-top: 50px;  
+  }  
+  
+    .fa-bars{
+      display: block;
+    }
+  
+   .fa-xmark{
+    display: block;
+    position: absolute;
+    top: 0%;
+    font-size: xx-large;
+   }
+  
+   li{
+    display:block;
+    margin: 25px;
+   }
+    
+  }
+  
+  .toogle_nav {
+    width: -50%;
+    height: 0px;
+   }
+  
+  
+  @media screen and (max-width:300px) {
+    #nav-Links-outer{
+      display: none;
+    }
+    #cart{
+    height: 10vh;
+    width: 20vw;
+    }
+    
+  }
+  
+  /* 2nd nav end  */
+
+  /* shop start */
+
+  .forDisplay{
+    display:none;
+  }
+
+
+
+  /* shop end  */
+  
+  
+  /* price card start  */
+  
+  .price-card{
+    height: 26vh;
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+
+  span{
+    display: flex;
+  }
+
+  .total-price{
+    margin-left: 20%;
+    color: black;
+  }
+
+  .price-card-outer{
+    display: flex;
+    justify-content: end;
+    margin-left: 1px;
+    /* width: 30%; */
+  }
+
+
+
+  /* footer start  */
+
+  
+#footer-ctrl{
+    background-color:rgb(43, 42, 42);
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer-para{
+    display: flex;
+    justify-content: center;
+    color: silver;
+    font-size: larger;
+    margin-bottom: 0px;
+    text-decoration: none;
+  }
+  
+
+
+  /* footer end  */
+ 
+
